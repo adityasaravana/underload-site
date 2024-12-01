@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { ThemeToggle } from "./ThemeToggle";
 
 export async function Navbar() {
     return (
@@ -37,6 +38,7 @@ export async function Navbar() {
                 </div>
             </nav> */}
 
+            <ThemeToggle />
             {/* <div className="hidden sm:block"> */}
                 {/* <ThemeToggle /> */}
             {/* </div> */}
